@@ -31,7 +31,7 @@ body {
   pointer-events: none;              /* no bloquea clics */
   background-image: url('../img/fondo15amariposas.png');
   background-repeat: repeat;
-  background-size: 400px auto;
+  background-size: 1200px auto;
   mix-blend-mode: screen;            /* opcional, para efecto brillante */
   opacity: 0.45;
   animation: butterflies 40s linear infinite;
@@ -314,35 +314,40 @@ body > *:not(.butterfly-layer) {
 /* imágenes optimizadas */
 .card-photo-1 { background-image: url('../img/1.webp'); }
 .card-photo-2 { background-image: url('../img/2.webp'); }
-.card-photo-3 { background-image: url('../img/foto4.webp'); }
-.card-photo-4 { background-image: url('../img/foto6.webp'); }
-.card-photo-5 { background-image: url('../img/foto7.webp'); }
+.card-photo-3 { background-image: url('../img/3.webp'); }
+.card-photo-4 { background-image: url('../img/foto4.webp'); }
+.card-photo-5 { background-image: url('../img/foto6.webp'); }
+.card-photo-6 { background-image: url('../img/foto7.webp'); }
 
 /* orden inicial: 1 fondo, 5 arriba */
 /* estilo tipo polaroids una sobre otra */
 .draggable-stack .card-photo:nth-child(1) {
-  transform: translate(-20px, 15px) rotate(-6deg) scale(0.95);
+  transform: translate(-20px, 15px) rotate(-6deg) scale(0.95); 
   z-index: 1;
 }
 
 .draggable-stack .card-photo:nth-child(2) {
-  transform: translate(10px, 10px) rotate(4deg) scale(0.97);
+  transform: translate(14px, 10px) rotate(4deg) scale(0.97);
   z-index: 2;
 }
 
 .draggable-stack .card-photo:nth-child(3) {
-  transform: translate(-8px, 5px) rotate(-2deg) scale(0.99);
+  transform: translate(-10px, 5px) rotate(-2deg) scale(0.99);
   z-index: 3;
 }
 
 .draggable-stack .card-photo:nth-child(4) {
-  transform: translate(6px, 0px) rotate(3deg) scale(1.01);
+  transform: translate(8px, 0px) rotate(3deg) scale(1.01);
   z-index: 4;
 }
 
 .draggable-stack .card-photo:nth-child(5) {
-  transform: translate(0, 0) rotate(0deg) scale(1.03);
+  transform: translate(6px, 0px) rotate(-1deg) scale(0.93);
   z-index: 5;
+}
+.draggable-stack .card-photo:nth-child(6) {
+  transform: translate(0, 0) rotate(0deg) scale(1.03);
+  z-index: 6;
 }
 
 /* Franja inferior "desliza para ver más" */
@@ -463,7 +468,7 @@ body > *:not(.butterfly-layer) {
   margin: 25px 0;
   font-family: 'Kaushan Script','Kaushan Script Fallback';
   color: var(--accent-soft);
-  font-size: 40px;
+  font-size: 70px;
 }
 
 /* Contador en tarjetas */
@@ -531,7 +536,7 @@ body > *:not(.butterfly-layer) {
   border-radius: 999px;
   border: none;
   cursor: pointer;
-  font-size: 18px;
+  font-size: 30px;
   font-family: 'Didact Gothic', system-ui, sans-serif;
   background: var(--accent-soft);
   color: #000;
