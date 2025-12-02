@@ -182,7 +182,7 @@ body > *:not(.butterfly-layer) {
 
 .hero-subtitle {
   font-family: 'Kaushan Script','Kaushan Script Fallback', normal;
-  font-size: 30px;
+  font-size: 40px;
   color: #ffffff;
   margin: 0 0 4px;
   letter-spacing: 1px;
@@ -191,7 +191,7 @@ body > *:not(.butterfly-layer) {
 .hero-name {
   font-family: 'Great Vibes','Great Vibes Fallback';
   font-weight: 400;
-  font-size: 64px;
+  font-size: 74px;
   font-style: normal;
   margin: 0 0 8px;
   line-height: 1.05;
@@ -203,12 +203,13 @@ body > *:not(.butterfly-layer) {
   font-size: 26px;
   color: #ffffff;
   margin: 0;
+  font-size: 35px;
 }
 
 /* Títulos script */
 .title-script {
   font-family: 'Great Vibes','Great Vibes Fallback';
-  font-size: 52px;
+  font-size: 72px;
   font-weight: 400;
   font-style: normal;
   color: var(--accent-soft);
@@ -216,13 +217,13 @@ body > *:not(.butterfly-layer) {
 
 /* Texto pequeño y links */
 .text-small {
-  font-size: 22px;
+  font-size: 42px;
   color: #ffffff;
   font-family: 'Kaushan Script','Kaushan Script Fallback';
 }
 
 .text-link {
-  font-size: 16px;
+  font-size: 28px;
   color: var(--text-muted);
   text-decoration: underline;
   font-family: 'Kaushan Script','Kaushan Script Fallback';
@@ -620,27 +621,27 @@ body > *:not(.butterfly-layer) {
 
   /* Textos generales */
   .text-small {
-    font-size: 22px;
+    font-size: 42px;
   }
 
   .title-script {
-    font-size: 50px;      /* “Itinerario”, “Confirmación de asistencia”, etc. */
+    font-size: 70px;      /* “Itinerario”, “Confirmación de asistencia”, etc. */
   }
 
   /* Itinerario */
   .timeline-row .time {
-    font-size: 24px;
+    font-size: 44px;
   }
 
   .timeline-row .label {
-    font-size: 20px;
+    font-size: 40px;
   }
 
   /* Contador */
   .count-number {
     width: 70px;
     height: 100px;
-    font-size: 34px;
+    font-size: 44px;
   }
 
   .count-label {
